@@ -1,0 +1,35 @@
+{
+  "name": "text-simple",
+  "version": "0.0.1",
+  "description": "Simple Text template for Istanbul",
+  "main": "index.js",
+  "engines": {
+    "node": "^10.0.0"
+  },
+  "scripts": {
+    "bump": "yarn version && npm publish",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasredstone/text-simple.git"
+  },
+  "keywords": [
+    "istanbul",
+    "reporter",
+    "test"
+  ],
+  "author": "Thomas Redstone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thomasredstone/text-simple/issues"
+  },
+  "homepage": "https://github.com/thomasredstone/text-simple#readme",
+  "devDependencies": {
+    "jest": "^22.4.3"
+  },
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "istanbul-lib-report": "latest"
+  }
+}
