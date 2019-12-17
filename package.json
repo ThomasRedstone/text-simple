@@ -4,7 +4,7 @@
   "description": "Simple Text template for Istanbul",
   "main": "index.js",
   "engines": {
-    "node": "^10.0.0"
+    "node": ">10.0.0"
   },
   "scripts": {
     "bump": "yarn version && npm publish",
